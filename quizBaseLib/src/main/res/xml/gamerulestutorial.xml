@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameRulesList>
+    <GameRules
+        gamerulesId="@id/quiz_gamerules_onetry_id"
+        gamerulesTitle="@string/quiz_gamerules_onetry_title"
+        gamerulesExplanation="@string/quiz_gamerules_onetry_explanation"
+        gamerulesPlayers="@id/quiz_gamerules_players_solo_id" />
+    
+</GameRulesList>

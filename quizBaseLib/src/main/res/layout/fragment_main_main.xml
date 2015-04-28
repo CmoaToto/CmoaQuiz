@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:quizbutton="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main_relativelayout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <fr.cmoatoto.quiz.lib.views.QuizImageButton
+            android:id="@+id/activity_main_button_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onSettingsClick"
+            android:src="@drawable/ic_settings"
+            quizbutton:lineBottom="0dp"
+            quizbutton:lineLeft="0dp"
+            quizbutton:lineTop="0dp" />
+
+        <!-- SIGN-IN BAR -->
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/activity_main_button_signin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <View
+            android:id="@+id/activity_main_view_gameseparator"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+        <fr.cmoatoto.quiz.lib.views.QuizImageButton
+            android:id="@+id/activity_main_button_achievements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_achievement"
+            android:visibility="gone"
+            quizbutton:lineBottom="0dp"
+            quizbutton:lineRight="0dp"
+            quizbutton:lineTop="0dp" />
+
+        <fr.cmoatoto.quiz.lib.views.QuizImageButton
+            android:id="@+id/activity_main_button_leaderboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_leaderboard"
+            android:visibility="gone"
+            quizbutton:lineBottom="0dp"
+            quizbutton:lineRight="0dp"
+            quizbutton:lineTop="0dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="@dimen/preference_item_padding_inner"
+        android:text="@string/quiz_app_name"
+        android:textSize="@dimen/text_xxbig"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/activity_main_textview_swipetochoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/preference_item_padding_inner"
+        android:text="@string/quiz_activity_main_swipe"
+        android:textSize="@dimen/text_small"
+        android:textStyle="italic" />
+
+    <com.jfeinstein.jazzyviewpager.JazzyViewPager
+        android:id="@+id/activity_main_viewpager_gamerules"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gamerules_height" />
+
+    <fr.cmoatoto.quiz.lib.views.QuizButton
+        android:id="@+id/activity_main_button_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:minHeight="@dimen/button_big_height"
+        android:onClick="onStartClick"
+        android:text="@string/quiz_activity_main_start"
+        android:textSize="@dimen/text_xbig"
+        android:textStyle="bold" />
+
+</LinearLayout>

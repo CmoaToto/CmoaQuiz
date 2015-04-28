@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestionList>
+    <Question
+        questionId="0"
+        question="@string/question_0_question"
+        answer1="@string/question_0_answer1"
+        answer2="@string/question_0_answer2"
+        answer3="@string/question_0_answer3"
+        answer="2"
+        explanation="@string/question_0_explanation"
+        translated="@string/question_0_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="1"
+        question="@string/question_1_question"
+        answer1="@string/question_1_answer1"
+        answer2="@string/question_1_answer2"
+        answer3="@string/question_1_answer3"
+        answer="1"
+        explanation="@string/question_1_explanation"
+        translated="@string/question_1_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="2"
+        question="@string/question_2_question"
+        answer1="@string/question_2_answer1"
+        answer2="@string/question_2_answer2"
+        answer3="@string/question_2_answer3"
+        answer="2"
+        explanation="@string/question_2_explanation"
+        translated="@string/question_2_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="3"
+        question="@string/question_3_question"
+        answer1="@string/question_3_answer1"
+        answer2="@string/question_3_answer2"
+        answer3="@string/question_3_answer3"
+        answer="1"
+        explanation="@string/question_3_explanation"
+        translated="@string/question_3_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="4"
+        question="@string/question_4_question"
+        answer1="@string/question_4_answer1"
+        answer2="@string/question_4_answer2"
+        answer3="@string/question_4_answer3"
+        answer="1"
+        explanation="@string/question_4_explanation"
+        translated="@string/question_4_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="5"
+        question="@string/question_5_question"
+        answer1="@string/question_5_answer1"
+        answer2="@string/question_5_answer2"
+        answer3="@string/question_5_answer3"
+        answer="2"
+        explanation="@string/question_5_explanation"
+        translated="@string/question_5_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="6"
+        question="@string/question_6_question"
+        answer1="@string/question_6_answer1"
+        answer2="@string/question_6_answer2"
+        answer3="@string/question_6_answer3"
+        answer="1"
+        explanation="@string/question_6_explanation"
+        translated="@string/question_6_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="7"
+        question="@string/question_7_question"
+        answer1="@string/question_7_answer1"
+        answer2="@string/question_7_answer2"
+        answer3="@string/question_7_answer3"
+        answer="3"
+        explanation="@string/question_7_explanation"
+        translated="@string/question_7_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="8"
+        question="@string/question_8_question"
+        answer1="@string/question_8_answer1"
+        answer2="@string/question_8_answer2"
+        answer3="@string/question_8_answer3"
+        answer="2"
+        explanation="@string/question_8_explanation"
+        translated="@string/question_8_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="9"
+        question="@string/question_9_question"
+        answer1="@string/question_9_answer1"
+        answer2="@string/question_9_answer2"
+        answer3="@string/question_9_answer3"
+        answer="3"
+        explanation="@string/question_9_explanation"
+        translated="@string/question_9_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="10"
+        question="@string/question_10_question"
+        answer1="@string/question_10_answer1"
+        answer2="@string/question_10_answer2"
+        answer3="@string/question_10_answer3"
+        answer="3"
+        explanation="@string/question_10_explanation"
+        translated="@string/question_10_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="11"
+        question="@string/question_11_question"
+        answer1="@string/question_11_answer1"
+        answer2="@string/question_11_answer2"
+        answer3="@string/question_11_answer3"
+        answer="3"
+        explanation="@string/question_11_explanation"
+        translated="@string/question_11_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="12"
+        question="@string/question_12_question"
+        answer1="@string/question_12_answer1"
+        answer2="@string/question_12_answer2"
+        answer3="@string/question_12_answer3"
+        answer="3"
+        explanation="@string/question_12_explanation"
+        translated="@string/question_12_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="13"
+        question="@string/question_13_question"
+        answer1="@string/question_13_answer1"
+        answer2="@string/question_13_answer2"
+        answer3="@string/question_13_answer3"
+        answer="2"
+        explanation="@string/question_13_explanation"
+        translated="@string/question_13_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="14"
+        question="@string/question_14_question"
+        answer1="@string/question_14_answer1"
+        answer2="@string/question_14_answer2"
+        answer3="@string/question_14_answer3"
+        answer="3"
+        explanation="@string/question_14_explanation"
+        translated="@string/question_14_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="15"
+        question="@string/question_15_question"
+        answer1="@string/question_15_answer1"
+        answer2="@string/question_15_answer2"
+        answer3="@string/question_15_answer3"
+        answer="1"
+        explanation="@string/question_15_explanation"
+        translated="@string/question_15_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="16"
+        question="@string/question_16_question"
+        answer1="@string/question_16_answer1"
+        answer2="@string/question_16_answer2"
+        answer3="@string/question_16_answer3"
+        answer="3"
+        explanation="@string/question_16_explanation"
+        translated="@string/question_16_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="17"
+        question="@string/question_17_question"
+        answer1="@string/question_17_answer1"
+        answer2="@string/question_17_answer2"
+        answer3="@string/question_17_answer3"
+        answer="2"
+        explanation="@string/question_17_explanation"
+        translated="@string/question_17_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="18"
+        question="@string/question_18_question"
+        answer1="@string/question_18_answer1"
+        answer2="@string/question_18_answer2"
+        answer3="@string/question_18_answer3"
+        answer="2"
+        explanation="@string/question_18_explanation"
+        translated="@string/question_18_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="19"
+        question="@string/question_19_question"
+        answer1="@string/question_19_answer1"
+        answer2="@string/question_19_answer2"
+        answer3="@string/question_19_answer3"
+        answer="1"
+        explanation="@string/question_19_explanation"
+        translated="@string/question_19_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="20"
+        question="@string/question_20_question"
+        answer1="@string/question_20_answer1"
+        answer2="@string/question_20_answer2"
+        answer3="@string/question_20_answer3"
+        answer="3"
+        explanation="@string/question_20_explanation"
+        translated="@string/question_20_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="21"
+        question="@string/question_21_question"
+        answer1="@string/question_21_answer1"
+        answer2="@string/question_21_answer2"
+        answer3="@string/question_21_answer3"
+        answer="1"
+        explanation="@string/question_21_explanation"
+        translated="@string/question_21_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="22"
+        question="@string/question_22_question"
+        answer1="@string/question_22_answer1"
+        answer2="@string/question_22_answer2"
+        answer3="@string/question_22_answer3"
+        answer="1"
+        explanation="@string/question_22_explanation"
+        translated="@string/question_22_translated"
+        submitter="CmoaToto" />
+
+
+    <Question
+        questionId="23"
+        question="@string/question_23_question"
+        answer1="@string/question_23_answer1"
+        answer2="@string/question_23_answer2"
+        answer3="@string/question_23_answer3"
+        answer="2"
+        explanation="@string/question_23_explanation"
+        translated="@string/question_23_translated"
+        submitter="CmoaToto" />
+</QuestionList>

@@ -1,0 +1,18 @@
+apply plugin: 'com.android.library'
+
+dependencies {
+    compile "com.google.android.gms:play-services:${gms_library_version}"
+    compile project(':libraries:BaseGameUtils')
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.squareup.okhttp:okhttp:2.3.0'
+}
+
+android {
+    compileSdkVersion android_compile_version
+    buildToolsVersion build_tools_version
+
+    defaultConfig {
+        minSdkVersion android_min_sdk_version
+        targetSdkVersion android_version
+    }
+}

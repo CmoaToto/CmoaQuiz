@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.cmoatoto.quiz.lib"
+    android:versionCode="010000"
+    android:versionName="1.0.0" >
+
+    <!-- Permissions -->
+    <!-- Access network (AdMob, Analytics) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Access network state (AdMob, Analytics) -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <!-- This allow the app to work on Google TV. But it is important to test and create the UI for a non touch screen -->
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+
+    <application
+        android:allowBackup="true"
+        android:theme="@style/QuizTheme">
+        
+        <meta-data android:name="com.google.android.gms.games.APP_ID" android:value="@string/google_services_app_id"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        
+        <activity
+            android:name="fr.cmoatoto.quiz.lib.activities.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+          android:name="fr.cmoatoto.quiz.lib.activities.gamerules.onetry.QuestionOneTryActivity"
+          android:configChanges="orientation|keyboardHidden|screenSize"
+          android:screenOrientation="portrait"/>
+        <activity
+            android:name="fr.cmoatoto.quiz.lib.activities.gamerules.tenquestions.Question10QuestionsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="fr.cmoatoto.quiz.lib.activities.gamerules.marathon.QuestionMarathonActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="fr.cmoatoto.quiz.lib.activities.gamerules.splitscreen.QuestionSplitScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"/>
+        <activity
+          android:name="fr.cmoatoto.quiz.lib.activities.gamerules.onetry.FinishOneTryActivity"
+          android:configChanges="orientation|keyboardHidden|screenSize"
+          android:screenOrientation="portrait"/>
+        <activity
+          android:name="fr.cmoatoto.quiz.lib.activities.gamerules.tenquestions.Finish10QuestionsActivity"
+          android:configChanges="orientation|keyboardHidden|screenSize"
+          android:screenOrientation="portrait"/>
+        <activity
+          android:name="fr.cmoatoto.quiz.lib.activities.gamerules.marathon.FinishMarathonActivity"
+          android:configChanges="orientation|keyboardHidden|screenSize"
+          android:screenOrientation="portrait"/>
+        <activity
+            android:name="fr.cmoatoto.quiz.lib.activities.gamerules.splitscreen.FinishSplitScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

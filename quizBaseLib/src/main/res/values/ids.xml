@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item type="id" name="quiz_gamerules_onetry_id" />
+  <item type="id" name="quiz_gamerules_10questions_id" />
+  <item type="id" name="quiz_gamerules_marathon_id" />
+  <item type="id" name="quiz_gamerules_splitscreen_id" />
+  <item type="id" name="quiz_gamerules_versuscloud_id" />
+  
+  <item type="id" name="quiz_highscore_10questions_id" />
+  <item type="id" name="quiz_highscore_marathon_id" />
+  
+  <item type="id" name="quiz_gamerules_players_solo_id" />
+  <item type="id" name="quiz_gamerules_players_duo_id" />
+  <item type="id" name="quiz_gamerules_players_many_id" />
+    
+</resources>

@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="22dp"
+    android:paddingRight="22dp"
+    android:paddingBottom="10dp" >
+
+    <LinearLayout
+        android:id="@+id/fragment_gamerules_linearlayout_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/card"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/fragment_gamerules_textview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:padding="@dimen/preference_item_padding_inner"
+            android:textSize="@dimen/text_big"
+            android:textStyle="bold" />
+
+        <fr.cmoatoto.quiz.lib.views.CardViewPagerIndicator
+            android:id="@+id/fragment_gamerules_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/fragment_gamerules_textview_explain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/preference_item_padding_inner"
+            android:textSize="@dimen/text_normal" />
+
+        <TextView
+            android:id="@+id/fragment_gamerules_textview_highscore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/preference_item_padding_inner"
+            android:textSize="@dimen/text_normal"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</FrameLayout>

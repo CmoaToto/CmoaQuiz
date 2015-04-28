@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--Replace placeholder ID with your tracking ID-->
+  <string name="ga_trackingId">UA-45207849-1</string>
+
+  <!--The name of your app, used in the app name dimension in your reports. Defaults to the value found in the package.-->
+  <string name="ga_appName">CmoaQuiz</string>
+
+  <!--Automatically track a screen view each time a user starts an Activity. false by default.-->
+  <bool name="ga_autoActivityTracking">true</bool>
+
+  <!--Automatically track an Exception each time an uncaught exception is thrown in your application. false by default.-->
+  <bool name="ga_reportUncaughtExceptions">true</bool>
+
+  <!--The dispatch period in seconds. Defaults to 30 minutes.-->
+  <integer name="ga_dispatchPeriod">30</integer>
+
+  <!--The verbosity of the SDK logger. Valid values from least to most verbose are: error,warning,info, and verbose. Log level is set to warning by default.-->
+  <string name="ga_logLevel">error</string>
+
+  <!--Set to true if you want to test your tracking code without actually sending data to Google Analytics. Default is false. -->
+  <bool name="ga_dryRun">false</bool>
+</resources>

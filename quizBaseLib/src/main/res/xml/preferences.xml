@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/quiz_settings_title_base" >
+        <CheckBoxPreference
+            android:id="@+id/quiz_settings_checkbox_acceptnottranslated"
+            android:defaultValue="@bool/quiz_settings_acceptnottranslated_default"
+            android:key="@string/quiz_settings_acceptnottranslated_key"
+            android:title="@string/quiz_settings_checkbox_acceptnottranslated_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/quiz_settings_title_optimization" >
+        <CheckBoxPreference
+            android:id="@+id/quiz_settings_checkbox_acceptallanimations"
+            android:defaultValue="@bool/quiz_settings_acceptallanimations_default"
+            android:key="@string/quiz_settings_acceptallanimations_key"
+            android:title="@string/quiz_settings_checkbox_acceptallanimations_title"
+            android:summaryOn="@string/quiz_settings_checkbox_acceptallanimations_summaryon"
+            android:summaryOff="@string/quiz_settings_checkbox_acceptallanimations_summaryoff" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/quiz_settings_title_googleplaygames" >
+        <fr.cmoatoto.quiz.lib.views.OnClickPreference
+            android:id="@+id/quiz_settings_selectable_signout"
+            android:key="@string/quiz_settings_selectable_signout_key"
+            android:selectable="true"
+            android:summary="@string/quiz_game_signoutexplanation"
+            android:title="@string/quiz_game_signout" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,23 @@
+apply plugin: 'com.android.application'
+
+dependencies {
+    compile project(':quizBaseLib')
+}
+
+android {
+    compileSdkVersion android_compile_version
+    buildToolsVersion build_tools_version
+
+    defaultConfig {
+        minSdkVersion android_min_sdk_version
+        targetSdkVersion android_version
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}

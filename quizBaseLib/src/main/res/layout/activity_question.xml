@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_question_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/activity_question_textview_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:padding="@dimen/preference_item_padding_inner"
+        android:textSize="@dimen/text_normal" />
+
+    <TextView
+        android:id="@+id/activity_question_textview_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:padding="@dimen/preference_item_padding_inner"
+        android:textSize="@dimen/text_normal" />
+
+    <fr.cmoatoto.quiz.lib.views.MyAutoScrollViewPager
+        android:id="@+id/activity_question_viewpager_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/activity_question_view_anchor"
+        android:layout_below="@+id/activity_question_textview_index" />
+
+    <FrameLayout
+        android:id="@+id/activity_question_framelayout_growingtextcontainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/activity_question_viewpager_question"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" >
+
+        <TextView
+            android:id="@+id/activity_question_textview_growingtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="@dimen/button_height"
+            android:padding="@dimen/preference_item_padding_inner"
+            android:textSize="@dimen/text_xbig" />
+    </FrameLayout>
+
+    <View
+        android:id="@+id/activity_question_view_anchor"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

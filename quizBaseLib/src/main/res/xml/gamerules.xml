@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameRulesList>
+    <GameRules
+        gamerulesId="@id/quiz_gamerules_10questions_id"
+        gamerulesTitle="@string/quiz_gamerules_10questions_title"
+        gamerulesExplanation="@string/quiz_gamerules_10questions_explanation"
+        gamerulesHighScore="@id/quiz_highscore_10questions_id"
+        gamerulesPlayers="@id/quiz_gamerules_players_solo_id"
+        gamerulesValue1="@integer/quiz_config_10questions_timeforanswerinsecond" />
+
+    <GameRules
+        gamerulesId="@id/quiz_gamerules_marathon_id"
+        gamerulesTitle="@string/quiz_gamerules_marathon_title"
+        gamerulesExplanation="@string/quiz_gamerules_marathon_explanation"
+        gamerulesHighScore="@id/quiz_highscore_marathon_id"
+        gamerulesPlayers="@id/quiz_gamerules_players_solo_id"
+        gamerulesValue1="@integer/quiz_config_marathon_lives" />
+
+    <GameRules
+        gamerulesId="@id/quiz_gamerules_splitscreen_id"
+        gamerulesTitle="@string/quiz_gamerules_splitscreen_title"
+        gamerulesExplanation="@string/quiz_gamerules_splitscreen_explanation"
+        gamerulesPlayers="@id/quiz_gamerules_players_duo_id" />
+    
+</GameRulesList>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Accept Not translate Prefs -->
+    <string name="quiz_settings_acceptnottranslated_key" tools:ignore="MissingTranslation">accept_not_translated</string>
+    <item type="bool" name="quiz_settings_acceptnottranslated_default">false</item>
+
+    <!-- Accept All Animations -->
+    <string name="quiz_settings_acceptallanimations_key">accept_all_animations</string>
+    <item type="bool" name="quiz_settings_acceptallanimations_default">true</item>
+
+    <!-- Sign out from Google Play Prefs -->
+    <string name="quiz_settings_selectable_signout_key">signout</string>
+
+</resources>

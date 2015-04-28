@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="question_0_question">The British pop group The Yardbirds had three famous rock guitarists in their ranks : Eric Clapton, Jimmy Page and…</string>
+    <string name="question_0_answer1">David Gilmour</string>
+    <string name="question_0_answer2">Jeff Beck</string>
+    <string name="question_0_answer3">Jim Morisson</string>
+    <string name="question_0_explanation">Eric Clapton from 1963 until 1965, Jeff Beck replaced Clapton until October 1966, and Jimmy Page joined in June 1966 as bass guitarist but took over lead guitar duties after Beck\'s sacking.</string>
+    <string name="question_0_translated">false</string>
+
+    <string name="question_1_question">Which three countries have both an Atlantic and Mediterranean coastline? France, Spain and…</string>
+    <string name="question_1_answer1">Morocco</string>
+    <string name="question_1_answer2">Algeria</string>
+    <string name="question_1_answer3">Libya</string>
+    <string name="question_1_explanation"></string>
+    <string name="question_1_translated">false</string>
+
+    <string name="question_2_question">What was the first full length film that was completely designed by computer?</string>
+    <string name="question_2_answer1">Avatar</string>
+    <string name="question_2_answer2">Toy Story</string>
+    <string name="question_2_answer3">Final Fantasy</string>
+    <string name="question_2_explanation">Toy Story was realesed on 1995</string>
+    <string name="question_2_translated">false</string>
+
+    <string name="question_3_question">Which country has the longest coastline? </string>
+    <string name="question_3_answer1">Canada</string>
+    <string name="question_3_answer2">Russia</string>
+    <string name="question_3_answer3">Australia</string>
+    <string name="question_3_explanation">Its coastline is 243,000 kms long.</string>
+    <string name="question_3_translated">false</string>
+
+    <string name="question_4_question">By what name is the marsupial \"Sarcophilus Harrisi\" better known?</string>
+    <string name="question_4_answer1">the tasmanian devil</string>
+    <string name="question_4_answer2">the opossum</string>
+    <string name="question_4_answer3">the marsupilami</string>
+    <string name="question_4_explanation"></string>
+    <string name="question_4_translated">false</string>
+
+    <string name="question_5_question">Who is the alter ego of the famous crime fighter Bruce Wayne?</string>
+    <string name="question_5_answer1">Spiderman</string>
+    <string name="question_5_answer2">Batman</string>
+    <string name="question_5_answer3">Zorro</string>
+    <string name="question_5_explanation"></string>
+    <string name="question_5_translated">false</string>
+
+    <string name="question_6_question">Who is the alter ego of the famous crime fighter Peter Parker?</string>
+    <string name="question_6_answer1">Spiderman</string>
+    <string name="question_6_answer2">Batman</string>
+    <string name="question_6_answer3">Captain America</string>
+    <string name="question_6_explanation"></string>
+    <string name="question_6_translated">false</string>
+
+    <string name="question_7_question">Who is the alter ego of the famous crime fighter Steve Rogers?</string>
+    <string name="question_7_answer1">Thor</string>
+    <string name="question_7_answer2">Hulk</string>
+    <string name="question_7_answer3">Captain America</string>
+    <string name="question_7_explanation"></string>
+    <string name="question_7_translated">false</string>
+
+    <string name="question_8_question">Which South American country takes it\'s name from an Italian city?</string>
+    <string name="question_8_answer1">Bolivia</string>
+    <string name="question_8_answer2">Venezuela</string>
+    <string name="question_8_answer3">Uruguay</string>
+    <string name="question_8_explanation">Venezuela was name after Venice.</string>
+    <string name="question_8_translated">false</string>
+
+    <string name="question_9_question">What does the MP stand for in the term \"MP3 player\"?</string>
+    <string name="question_9_answer1">MPEG Protection</string>
+    <string name="question_9_answer2">Music Player</string>
+    <string name="question_9_answer3">Moving Picture</string>
+    <string name="question_9_explanation">MP3 is short for \"MPEG-1 Audio Layer 3\", which itself stand for \"Moving Pictures Expert Group\". So technically it stands for \"Moving Picture\".</string>
+    <string name="question_9_translated">false</string>
+
+    <string name="question_10_question">What is the lowest possible hand in poker?</string>
+    <string name="question_10_answer1">1-2-3-4-6, not of the same suit</string>
+    <string name="question_10_answer2">2-3-4-5-6, not of the same suit</string>
+    <string name="question_10_answer3">2-3-4-5-7, not of the same suit</string>
+    <string name="question_10_explanation"></string>
+    <string name="question_10_translated">false</string>
+
+    <string name="question_11_question">What is the chemical symbol for the element Gold?</string>
+    <string name="question_11_answer1">Or</string>
+    <string name="question_11_answer2">G</string>
+    <string name="question_11_answer3">Au</string>
+    <string name="question_11_explanation">from the Latin Aurum</string>
+    <string name="question_11_translated">false</string>
+
+    <string name="question_12_question">What is the chemical symbol for the element Silver?</string>
+    <string name="question_12_answer1">Ar</string>
+    <string name="question_12_answer2">N</string>
+    <string name="question_12_answer3">Ag</string>
+    <string name="question_12_explanation">from the Latin Argentum</string>
+    <string name="question_12_translated">false</string>
+
+    <string name="question_13_question">What is the chemical symbol for the element Mercury?</string>
+    <string name="question_13_answer1">M</string>
+    <string name="question_13_answer2">Hg</string>
+    <string name="question_13_answer3">Hy</string>
+    <string name="question_13_explanation">from the Latin Hydragyrum</string>
+    <string name="question_13_translated">false</string>
+
+    <string name="question_14_question">Who DIDN\'T performed the title music for a Bond film?</string>
+    <string name="question_14_answer1">Alicia Keys</string>
+    <string name="question_14_answer2">Garbage</string>
+    <string name="question_14_answer3">Lily Allen</string>
+    <string name="question_14_explanation"></string>
+    <string name="question_14_translated">false</string>
+
+    <string name="question_15_question">Who shot Billy the Kid?</string>
+    <string name="question_15_answer1">Sheriff Pat Garrett</string>
+    <string name="question_15_answer2">Robert Ford</string>
+    <string name="question_15_answer3">Frank Hamer</string>
+    <string name="question_15_explanation">Robert Ford killed Jesse James.\r\nFrank Hamer led the policemen who killed Bonnie and Clyde.</string>
+    <string name="question_15_translated">false</string>
+
+    <string name="question_16_question">When Elizabeth Taylor played Cleopatra, who played Julius Caesar?</string>
+    <string name="question_16_answer1">Richard Burton</string>
+    <string name="question_16_answer2">Charlton Heston</string>
+    <string name="question_16_answer3">Rex Harrison</string>
+    <string name="question_16_explanation">Richard Burton played Anthony</string>
+    <string name="question_16_translated">false</string>
+
+    <string name="question_17_question">In which city would you find the International Court of Justice?</string>
+    <string name="question_17_answer1">Washington, USA</string>
+    <string name="question_17_answer2">The Hague, Netherlands</string>
+    <string name="question_17_answer3">Paris, France</string>
+    <string name="question_17_explanation">It was established in 1945 by the United Nations.</string>
+    <string name="question_17_translated">false</string>
+
+    <string name="question_18_question">What is the name given to a quadrilateral with two parallel sides of unequal length?</string>
+    <string name="question_18_answer1">a parallelogram</string>
+    <string name="question_18_answer2">a trapezoid</string>
+    <string name="question_18_answer3">a rhombus</string>
+    <string name="question_18_explanation"></string>
+    <string name="question_18_translated">false</string>
+
+    <string name="question_19_question">Which is the most Southerly capital city in the world?</string>
+    <string name="question_19_answer1">Wellington, New Zealand</string>
+    <string name="question_19_answer2">Ushuaia, Tierra del Fuego</string>
+    <string name="question_19_answer3">Canberra, Australia</string>
+    <string name="question_19_explanation">Ushuaia is only the regional capital of Tierra del Fuego, in Argentina, but it is the Southernmost city.</string>
+    <string name="question_19_translated">false</string>
+
+    <string name="question_20_question">Which is the most Northerly capital city in the world?</string>
+    <string name="question_20_answer1">Oslo, Norway</string>
+    <string name="question_20_answer2">Nuuk, Greenland</string>
+    <string name="question_20_answer3">Reykjavik, Iceland</string>
+    <string name="question_20_explanation">Greenland is an autonomous country within the Kingdom of Denmark.\r\n\r\nHammerfest in Norway is the Northernmost City.</string>
+    <string name="question_20_translated">false</string>
+
+    <string name="question_21_question">In which other opera the Mozart\'s  \"The Marriage of Figaro\" opera character Figaro appears?</string>
+    <string name="question_21_answer1">Rossini\'s \"Barber of Seville\"</string>
+    <string name="question_21_answer2">Bizet\'s \"Carmen\"</string>
+    <string name="question_21_answer3">Verdi\'s \"Il Trovatore\"</string>
+    <string name="question_21_explanation"></string>
+    <string name="question_21_translated">false</string>
+
+    <string name="question_22_question">The Saone and Rhone rivers converge at which French city?</string>
+    <string name="question_22_answer1">Lyon</string>
+    <string name="question_22_answer2">Paris</string>
+    <string name="question_22_answer3">Nancy</string>
+    <string name="question_22_explanation"></string>
+    <string name="question_22_translated">false</string>
+
+    <string name="question_23_question">What was the currency of the France prior to the adoption of the Euro?</string>
+    <string name="question_23_answer1">Ecu</string>
+    <string name="question_23_answer2">Franc</string>
+    <string name="question_23_answer3">French Dollar</string>
+    <string name="question_23_explanation"></string>
+    <string name="question_23_translated">false</string>
+
+</resources>

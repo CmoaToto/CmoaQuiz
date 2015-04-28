@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="gamerules_height">200dp</dimen>
+    <dimen name="button_small_height">27dp</dimen>
+    <dimen name="button_height">36dp</dimen>
+    <dimen name="button_big_height">72dp</dimen>
+    <dimen name="settings_slide_margin">64dp</dimen>
+    <dimen name="text_xsmall">8sp</dimen>
+    <dimen name="text_small">9sp</dimen>
+    <dimen name="text_normal">12sp</dimen>
+    <dimen name="text_big">15sp</dimen>
+    <dimen name="text_xbig">18sp</dimen>
+    <dimen name="text_xxbig">21sp</dimen>
+    <dimen name="googlead_height">50dp</dimen>
+
+</resources>

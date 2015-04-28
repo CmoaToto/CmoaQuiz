@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="gamerules_height">200dp</dimen>
+    <dimen name="button_small_height">36dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="button_big_height">96dp</dimen>
+    <dimen name="settings_slide_margin">64dp</dimen>
+    <dimen name="text_xsmall">10sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_normal">16sp</dimen>
+    <dimen name="text_big">20sp</dimen>
+    <dimen name="text_xbig">24sp</dimen>
+    <dimen name="text_xxbig">28sp</dimen>
+
+</resources>

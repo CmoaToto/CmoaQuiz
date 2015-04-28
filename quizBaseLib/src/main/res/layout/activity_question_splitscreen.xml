@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_question_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/activity_question_splitscreen_element_1"
+        layout="@layout/activity_question_splitscreen_element" />
+
+    <include
+        android:id="@+id/activity_question_splitscreen_element_2"
+        layout="@layout/activity_question_splitscreen_element" />
+
+</LinearLayout>

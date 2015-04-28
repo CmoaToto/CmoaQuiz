@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_finish_linearlayout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <fr.cmoatoto.quiz.lib.views.RotatingLinearLayout
+        android:id="@+id/activity_finish_rotatinglinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/activity_finish_view_coloredbar"
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/activity_finish_textview_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/preference_item_padding_inner"
+            android:textSize="@dimen/text_xxbig"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/activity_finish_textview_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/preference_item_padding_inner"
+            android:textSize="@dimen/text_xbig" />
+
+        <fr.cmoatoto.quiz.lib.views.QuizButton
+            android:id="@+id/activity_finish_button_restart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/button_big_height"
+            android:onClick="onRestartClick"
+            android:padding="@dimen/preference_item_padding_inner"
+            android:textSize="@dimen/text_xbig"
+            android:textStyle="bold" />
+
+        <fr.cmoatoto.quiz.lib.views.QuizButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/button_small_height"
+            android:onClick="onBackClick"
+            android:padding="@dimen/preference_item_padding_inner"
+            android:text="@string/quiz_activity_finish_back"
+            android:textSize="@dimen/text_normal" />
+    </fr.cmoatoto.quiz.lib.views.RotatingLinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/activity_finish_view_coloredbar_2"
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/activity_finish_textview_result_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/preference_item_padding_inner"
+            android:textSize="@dimen/text_xxbig"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/activity_finish_textview_score_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/preference_item_padding_inner"
+            android:textSize="@dimen/text_xbig" />
+
+        <fr.cmoatoto.quiz.lib.views.QuizButton
+            android:id="@+id/activity_finish_button_restart_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/button_big_height"
+            android:onClick="onRestartClick"
+            android:padding="@dimen/preference_item_padding_inner"
+            android:textSize="@dimen/text_xbig"
+            android:textStyle="bold" />
+
+        <fr.cmoatoto.quiz.lib.views.QuizButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/button_small_height"
+            android:onClick="onBackClick"
+            android:padding="@dimen/preference_item_padding_inner"
+            android:text="@string/quiz_activity_finish_back"
+            android:textSize="@dimen/text_normal" />
+    </LinearLayout>
+
+</LinearLayout>

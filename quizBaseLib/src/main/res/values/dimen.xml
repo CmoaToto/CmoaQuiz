@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="standard_height">48dp</dimen>
+    <dimen name="item_size">90dp</dimen>
+
+</resources>

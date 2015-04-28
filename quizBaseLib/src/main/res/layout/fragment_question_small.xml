@@ -1,0 +1,121 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/fragment_question_relativelayout_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/card" >
+
+        <View
+            android:id="@+id/fragment_question_view_buttonbackground"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentTop="true"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <fr.cmoatoto.quiz.lib.views.ColoredProgressBar
+                android:id="@+id/fragment_question_progressbar"
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:id="@+id/fragment_question_textview_countdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/text_normal" />
+
+            <ScrollView
+                android:id="@+id/fragment_question_scrollview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/fragment_question_textview_question"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/preference_item_padding_inner"
+                        android:paddingRight="@dimen/preference_item_padding_inner"
+                        android:textSize="@dimen/text_small" />
+
+                    <TextView
+                        android:id="@+id/fragment_question_textview_questionby"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/preference_item_padding_inner"
+                        android:paddingRight="@dimen/preference_item_padding_inner"
+                        android:textSize="@dimen/text_xsmall" />
+
+                    <TextView
+                        android:id="@+id/fragment_question_textview_explanation"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0"
+                        android:gravity="center"
+                        android:padding="@dimen/preference_item_padding_inner"
+                        android:textSize="@dimen/text_normal"
+                        android:textStyle="italic"
+                        android:visibility="invisible" />
+                </LinearLayout>
+            </ScrollView>
+
+            <fr.cmoatoto.quiz.lib.views.AnswerButton
+                android:id="@+id/fragment_question_button_answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:minHeight="@dimen/button_small_height"
+                android:padding="@dimen/preference_item_padding_inner"
+                android:textSize="@dimen/text_small" />
+
+            <fr.cmoatoto.quiz.lib.views.AnswerButton
+                android:id="@+id/fragment_question_button_answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:minHeight="@dimen/button_small_height"
+                android:padding="@dimen/preference_item_padding_inner"
+                android:textSize="@dimen/text_small" />
+
+            <fr.cmoatoto.quiz.lib.views.AnswerButton
+                android:id="@+id/fragment_question_button_answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:minHeight="@dimen/button_small_height"
+                android:padding="@dimen/preference_item_padding_inner"
+                android:textSize="@dimen/text_small" />
+
+            <fr.cmoatoto.quiz.lib.views.QuizButton
+                android:id="@+id/fragment_question_button_next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:minHeight="@dimen/button_small_height"
+                android:text="@string/quiz_fragment_question_next"
+                android:textSize="@dimen/text_small"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

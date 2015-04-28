@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="question_0_question">Le groupe de pop anglais The Yardbirds a eu 3 guitaristes célèbres dans ses rangs : Eric Clapton, Jimmy Page et…</string>
+    <string name="question_0_answer1">David Gilmour</string>
+    <string name="question_0_answer2">Jeff Beck</string>
+    <string name="question_0_answer3">Jim Morisson</string>
+    <string name="question_0_explanation">Eric Clapton (de 1963 jusqu\'en 1965) Jeff Beck (replaça Clapton jusqu\'en 1966) et Jimmy Page (de 1966 comme bassiste puis guitariste dès le départ de Jeff Beck).</string>
+    <string name="question_0_translated">true</string>
+
+    <string name="question_1_question">3 pays ont à la fois l\'Atlantique et la Méditéranée comme côte. La France, l\'Espagne et…</string>
+    <string name="question_1_answer1">Le Maroc</string>
+    <string name="question_1_answer2">L\'Algérie</string>
+    <string name="question_1_answer3">La Libye</string>
+    <string name="question_1_translated">true</string>
+
+    <string name="question_2_question">Quel a été le premier film entièrement réalisé à l\'ordinateur ?</string>
+    <string name="question_2_answer1">Avatar</string>
+    <string name="question_2_answer2">Toy Story</string>
+    <string name="question_2_answer3">Final Fantasy</string>
+    <string name="question_2_explanation">Toy Story est sorti en 1995</string>
+    <string name="question_2_translated">true</string>
+
+    <string name="question_3_question">Quel pays a la plus grande côte ?</string>
+    <string name="question_3_answer1">Canada</string>
+    <string name="question_3_answer2">Russie</string>
+    <string name="question_3_answer3">Australie</string>
+    <string name="question_3_explanation">Il a 243 000 kms de côte.</string>
+    <string name="question_3_translated">true</string>
+
+    <string name="question_4_question">Par quel nom le marsupial \"Sarcophilus Harrisi\" est plus connue ?</string>
+    <string name="question_4_answer1">Le diable de Tasmanie</string>
+    <string name="question_4_answer2">L\'opossum</string>
+    <string name="question_4_answer3">Le marsupilami</string>
+    <string name="question_4_translated">true</string>
+
+    <string name="question_5_question">Qui est l\'alter ego du combatant du crime Bruce Wayne ?</string>
+    <string name="question_5_answer1">Spiderman</string>
+    <string name="question_5_answer2">Batman</string>
+    <string name="question_5_answer3">Zorro</string>
+    <string name="question_5_translated">true</string>
+
+    <string name="question_6_question">Qui est l\'alter ego du combatant du crime Peter Parker ?</string>
+    <string name="question_6_answer1">Spiderman</string>
+    <string name="question_6_answer2">Batman</string>
+    <string name="question_6_answer3">Captain America</string>
+    <string name="question_6_translated">true</string>
+
+    <string name="question_7_question">Qui est l\'alter ego du combatant du crime Steve Rogers ?</string>
+    <string name="question_7_answer1">Thor</string>
+    <string name="question_7_answer2">Hulk</string>
+    <string name="question_7_answer3">Captain America</string>
+    <string name="question_7_translated">true</string>
+
+    <string name="question_8_question">Quelle pays d\'Amérique du Sud tient son nom d\'une ville italienne ?</string>
+    <string name="question_8_answer1">La Bolivie</string>
+    <string name="question_8_answer2">Le Vénézuela</string>
+    <string name="question_8_answer3">L\'Uruguay</string>
+    <string name="question_8_explanation">Le Vénézuela tiens son nom de Venise.</string>
+    <string name="question_8_translated">true</string>
+
+    <string name="question_9_question">Que signifie \"MP\" dans le terme \"lecteur MP3\" ?</string>
+    <string name="question_9_answer1">MPEG Protection</string>
+    <string name="question_9_answer2">Music Player</string>
+    <string name="question_9_answer3">Moving Picture</string>
+    <string name="question_9_explanation">MP3 est l\'abréviation de \"MPEG-1 Audio Layer 3\", qui signifie lui-même \"Moving Pictures Expert Group\". Donc techniquement la signification est \"Moving Picture\".</string>
+    <string name="question_9_translated">true</string>
+
+    <string name="question_10_question">Quelle est la plus petite main possible au Poker ?</string>
+    <string name="question_10_answer1">1–2–3–4–6, de couleur différente</string>
+    <string name="question_10_answer2">2–3–4–5–6, de couleur différente</string>
+    <string name="question_10_answer3">2–3–4–5–7, de couleur différente</string>
+    <string name="question_10_translated">true</string>
+
+    <string name="question_11_question">Quel est le symbole chimique de l\'or ?</string>
+    <string name="question_11_answer1">Or</string>
+    <string name="question_11_answer2">G</string>
+    <string name="question_11_answer3">Au</string>
+    <string name="question_11_explanation">Du latin "aurum"</string>
+    <string name="question_11_translated">true</string>
+
+    <string name="question_12_question">Quel est le symbole chimique de l\'argent ?</string>
+    <string name="question_12_answer1">Ar</string>
+    <string name="question_12_answer2">N</string>
+    <string name="question_12_answer3">Ag</string>
+    <string name="question_12_explanation">Du latin "argentum"</string>
+    <string name="question_12_translated">true</string>
+
+    <string name="question_13_question">Quel est le symbole chimique du Mercure ?</string>
+    <string name="question_13_answer1">M</string>
+    <string name="question_13_answer2">Hg</string>
+    <string name="question_13_answer3">Hy</string>
+    <string name="question_13_explanation">Du latin "hydragyrum"</string>
+    <string name="question_13_translated">true</string>
+
+    <string name="question_14_question">Qui n\'a PAS interprété la musique principale d\'un film de James Bond ?</string>
+    <string name="question_14_answer1">Alicia Keys</string>
+    <string name="question_14_answer2">Garbage</string>
+    <string name="question_14_answer3">Lily Allen</string>
+    <string name="question_14_translated">true</string>
+
+</resources>
