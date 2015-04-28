@@ -12,22 +12,26 @@ There is no versionning here before now because there was too much private code 
 
 ____
 
-## I just want to **test** this
-Nothing easier! Go to the sample page of the Google Play Store(https://play.google.com/store/apps/details?id=fr.comatoto.quiz.general) and try it :)
+#### I just want to **test** this
+Nothing easier! Go to the [sample page of the Google Play Store](https://play.google.com/store/apps/details?id=fr.comatoto.quiz.general) and try it :)
 
-## And what if I just want to build it?
+#### And what if I just want to build it?
 Clone this repo, change the files
 * quizSample/src/main/res/values/
-** **config.xml** *(change everything you want but you need to fill the **TODO : TO FILL** fields)*
+  * **config.xml** *(change everything you want but you need to fill the **TODO : TO FILL** fields)*
+  
 Then a simple `./gradlew clean installDebug` should build and install a fresh version of the Sample
 
-## But I want to create my own questions!
+#### But I want to create my own questions!
 Cool! Then you have two *(or more)* files to open:
-* **quizSample/src/main/res/values/questions.xml** *contains the questions, 2 false answers, 1 right answer *(in a random order)*, an explanation and a `false` value for the field ** `translated` ** *
-* **quizSample/src/main/res/values/questions-{fr,it...}.xml** contains the same questions, and a `true` value for the field **`translated`**. You can translate only a few question if you want to.*
-* **quizSample/src/main/res/xml/questions.xml** *contains the right answer *(change the `answer` field with the numer of the right answer)* and the name of the submitter of the question.*
+* **quizSample/src/main/res/values/questions.xml** 
+contains the questions, 2 false answers, 1 right answer *(in a random order)*, an explanation and a `false` value for the field ** `translated` **
+* **quizSample/src/main/res/values/questions-{fr,it...}.xml** 
+contains the same questions, and a `true` value for the field **`translated`**. You can translate only a few question if you want to.
+* **quizSample/src/main/res/xml/questions.xml** 
+contains the right answer *(change the `answer` field with the numer of the right answer)* and the name of the submitter of the question.
 
-## And the code? Where is the code? I want to add unicorns everywhere!
+#### And the code? Where is the code? I want to add unicorns everywhere!
 I understand, unicorns are so cool. The whole code is in the `quizBaseLib` folder. I will not explain how everything works *(or maybe I will, but not now)* but it's really easy to create new gamerule, change stuff and add unicorns...
 
 ___
