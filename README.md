@@ -18,17 +18,24 @@ Nothing easier! Go to the [sample page of the Google Play Store](https://play.go
 #### And what if I just want to build it?
 Clone this repo, change the files
 * quizSample/src/main/res/values/
-  * **config.xml** *(change everything you want but you need to fill the **TODO : TO FILL** fields)*
+  * **config.xml** *(change everything you want but you need to fill the `TODO : TO FILL` fields)*
+  
+Oh, yes, you will need to create a Google Play Game in the Developper console for that. Not the easy part. I will help you on that later (in time, not in the document)...
   
 Then a simple `./gradlew clean installDebug` should build and install a fresh version of the Sample
 
 #### But I want to create my own questions!
 Cool! Then you have two *(or more)* files to open:
 * **quizSample/src/main/res/values/questions.xml** 
-contains the questions, 2 false answers, 1 right answer *(in a random order)*, an explanation and a `false` value for the field ** `translated` **
+
+contains the questions, 2 false answers, 1 right answer *(in a random order)*, an explanation and a `false` value for the field **`translated`**
+
 * **quizSample/src/main/res/values/questions-{fr,it...}.xml** 
+
 contains the same questions, and a `true` value for the field **`translated`**. You can translate only a few question if you want to.
+
 * **quizSample/src/main/res/xml/questions.xml** 
+
 contains the right answer *(change the `answer` field with the numer of the right answer)* and the name of the submitter of the question.
 
 #### And the code? Where is the code? I want to add unicorns everywhere!
