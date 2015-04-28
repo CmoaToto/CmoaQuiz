@@ -1,13 +1,13 @@
 package fr.cmoatoto.quiz.lib.utils;
 
+import android.content.Context;
+import android.preference.PreferenceManager;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
-import android.content.Context;
-import android.preference.PreferenceManager;
 
 import fr.cmoatoto.quiz.lib.R;
 
@@ -180,7 +180,7 @@ public class SharedPrefUtils {
     // Should show or not the Tutorial (loads a different gamerule xml)
 
     public static boolean getShowTutorial(Context c) {
-        return getBooleanPreference(c, SHOW_TUTORIAL_INDEX, true);
+        return getBooleanPreference(c, SHOW_TUTORIAL_INDEX, c.getResources().getBoolean(R.bool.quiz_config_hastutorial));
     }
 
     public static void setShowTutorial(Context c, boolean showTutorial) {
