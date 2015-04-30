@@ -13,7 +13,7 @@ There is no versionning here before now because there was too much private code 
 ____
 
 #### I just want to **test** this
-Nothing easier! Go to the [sample page of the Google Play Store](https://play.google.com/store/apps/details?id=fr.comatoto.quiz.general) and try it :)
+Nothing easier! Go to the [sample page of the Google Play Store](https://play.google.com/store/apps/details?id=fr.cmoatoto.quiz.general) and try it :)
 
 #### And what if I just want to build it?
 Clone this repo, change the files
