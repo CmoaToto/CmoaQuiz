@@ -21,7 +21,9 @@
     <string name="google_game_achivementid_10questions_greatplayer">TODO : TO FILL</string>
 
     <!-- Leaderboard ids -->
-    <!-- Best Score LeaderBoard -->
+    <!-- Best Score OneTry LeaderBoard -->
+    <string name="google_game_leaderboardid_onetry_bestscore">TODO : TO FILL</string>
+    <!-- Best Score 10QuestionsLeaderBoard -->
     <string name="google_game_leaderboardid_10questions_bestscore">TODO : TO FILL</string>
 
     <!-- Other configurations... -->

@@ -58,6 +58,7 @@ public class QuestionOneTryActivity extends QuestionActivity {
 
         i.putExtra(FinishActivity.KEY_QUESTION_POINTS, mTotalPoints);
         i.putExtra(FinishOneTryActivity.KEY_QUESTION_POINTS_MAX, mTotalQuestion * getTotalTime());
+        i.putExtra(FinishOneTryActivity.KEY_QUESTION_DETAILLED_POINTS, mDetailledPoints);
         return i;
     }
 
