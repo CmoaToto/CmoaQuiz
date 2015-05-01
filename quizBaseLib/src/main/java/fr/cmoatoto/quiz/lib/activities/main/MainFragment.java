@@ -1,10 +1,12 @@
 package fr.cmoatoto.quiz.lib.activities.main;
 
 import android.content.Intent;
+import android.graphics.Point;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager.SimpleOnPageChangeListener;
+import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,6 +34,7 @@ import fr.cmoatoto.quiz.lib.elements.QuestionList.Question;
 import fr.cmoatoto.quiz.lib.utils.SharedPrefUtils;
 import fr.cmoatoto.quiz.lib.utils.TypeFaceUtils;
 import fr.cmoatoto.quiz.lib.views.QuizButton;
+import fr.cmoatoto.quiz.lib.views.QuizImageButton;
 
 public class MainFragment extends Fragment {
 
@@ -40,6 +43,7 @@ public class MainFragment extends Fragment {
     private MainActivity mActivity;
 
     private QuizButton mStartButton;
+    private QuizImageButton mSettingsButton;
 
     private View mMainView;
 
@@ -48,6 +52,8 @@ public class MainFragment extends Fragment {
 
     private ViewBouncer mBounceStartButtonTask;
 
+    private int mWindowWidth;
+
     private static String DIALOG_TAG = "fr.cmoatoto.quiz.lib.activities.main.dialogtag";
 
     @Override
@@ -55,6 +61,11 @@ public class MainFragment extends Fragment {
         super.onCreate(savedInstanceState);
 
         mActivity = (MainActivity) getActivity();
+
+        Display display = mActivity.getWindowManager().getDefaultDisplay();
+        Point size = new Point();
+        display.getSize(size);
+        mWindowWidth = size.x;
     }
 
     @Override
@@ -97,6 +108,8 @@ public class MainFragment extends Fragment {
         mStartButton = (QuizButton) mMainView.findViewById(R.id.activity_main_button_start);
         mStartButton.setColor(getResources().getColor(R.color.holo_orange_light));
         mBounceStartButtonTask = new ViewBouncer(mStartButton);
+
+        mSettingsButton = (QuizImageButton) mMainView.findViewById(R.id.activity_main_button_settings);
 
         initQuestionList();
         initGameRulesList();
@@ -281,4 +294,9 @@ public class MainFragment extends Fragment {
         mMainView.findViewById(R.id.activity_main_button_leaderboard).setVisibility(View.VISIBLE);
     }
 
+    public void onMainViewPagerScrolled(int position, int positionOffsetPixels) {
+        if (position == 0) {
+            mSettingsButton.setRotation(positionOffsetPixels * 360 / mWindowWidth);
+        }
+    }
 }

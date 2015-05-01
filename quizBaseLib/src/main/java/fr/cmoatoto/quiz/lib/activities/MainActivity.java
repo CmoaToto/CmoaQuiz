@@ -64,6 +64,12 @@ public class MainActivity extends BaseActivity {
 
         setContentView(mViewPager);
         mViewPager.setCurrentItem(1, false);
+        mViewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+                mMainFragment.onMainViewPagerScrolled(position, positionOffsetPixels);
+            }
+        });
     }
 
     private void initMain() {
