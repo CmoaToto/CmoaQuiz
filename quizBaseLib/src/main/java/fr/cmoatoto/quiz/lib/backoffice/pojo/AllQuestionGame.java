@@ -36,7 +36,7 @@ public class AllQuestionGame {
         return date;
     }
 
-    public int getPonts() {
+    public int getPoints() {
         return points;
     }
 
