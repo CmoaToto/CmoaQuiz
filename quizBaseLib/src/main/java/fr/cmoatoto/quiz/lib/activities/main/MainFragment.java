@@ -280,18 +280,22 @@ public class MainFragment extends Fragment {
 
     /** Shows the "sign in" bar (explanation and button). */
     public void showSignInBar() {
-        mMainView.findViewById(R.id.activity_main_button_signin).setVisibility(View.VISIBLE);
-        mMainView.findViewById(R.id.activity_main_view_gameseparator).setVisibility(View.GONE);
-        mMainView.findViewById(R.id.activity_main_button_achievements).setVisibility(View.GONE);
-        mMainView.findViewById(R.id.activity_main_button_leaderboard).setVisibility(View.GONE);
+        if (mMainView != null) {
+            mMainView.findViewById(R.id.activity_main_button_signin).setVisibility(View.VISIBLE);
+            mMainView.findViewById(R.id.activity_main_view_gameseparator).setVisibility(View.GONE);
+            mMainView.findViewById(R.id.activity_main_button_achievements).setVisibility(View.GONE);
+            mMainView.findViewById(R.id.activity_main_button_leaderboard).setVisibility(View.GONE);
+        }
     }
 
     /** Shows the "sign out" bar (explanation and button). */
     public void showSignOutBar() {
-        mMainView.findViewById(R.id.activity_main_button_signin).setVisibility(View.GONE);
-        mMainView.findViewById(R.id.activity_main_view_gameseparator).setVisibility(View.VISIBLE);
-        mMainView.findViewById(R.id.activity_main_button_achievements).setVisibility(View.VISIBLE);
-        mMainView.findViewById(R.id.activity_main_button_leaderboard).setVisibility(View.VISIBLE);
+        if (mMainView != null) {
+            mMainView.findViewById(R.id.activity_main_button_signin).setVisibility(View.GONE);
+            mMainView.findViewById(R.id.activity_main_view_gameseparator).setVisibility(View.VISIBLE);
+            mMainView.findViewById(R.id.activity_main_button_achievements).setVisibility(View.VISIBLE);
+            mMainView.findViewById(R.id.activity_main_button_leaderboard).setVisibility(View.VISIBLE);
+        }
     }
 
     public void onMainViewPagerScrolled(int position, int positionOffsetPixels) {
