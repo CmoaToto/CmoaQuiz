@@ -53,7 +53,8 @@
                         android:gravity="center"
                         android:paddingLeft="@dimen/preference_item_padding_inner"
                         android:paddingRight="@dimen/preference_item_padding_inner"
-                        android:textSize="@dimen/text_small" />
+                        android:textSize="@dimen/text_small"
+                        android:textStyle="bold|italic" />
 
                     <TextView
                         android:id="@+id/fragment_question_textview_questionby"
@@ -62,7 +63,8 @@
                         android:gravity="center"
                         android:paddingLeft="@dimen/preference_item_padding_inner"
                         android:paddingRight="@dimen/preference_item_padding_inner"
-                        android:textSize="@dimen/text_xsmall" />
+                        android:textSize="@dimen/text_xsmall"
+                        android:textStyle="bold|italic" />
 
                     <TextView
                         android:id="@+id/fragment_question_textview_explanation"
@@ -72,7 +74,7 @@
                         android:gravity="center"
                         android:padding="@dimen/preference_item_padding_inner"
                         android:textSize="@dimen/text_normal"
-                        android:textStyle="italic"
+                        android:textStyle="bold|italic"
                         android:visibility="invisible" />
                 </LinearLayout>
             </ScrollView>
@@ -84,7 +86,8 @@
                 android:background="@null"
                 android:minHeight="@dimen/button_small_height"
                 android:padding="@dimen/preference_item_padding_inner"
-                android:textSize="@dimen/text_small" />
+                android:textSize="@dimen/text_small"
+                android:textStyle="bold|italic" />
 
             <fr.cmoatoto.quiz.lib.views.AnswerButton
                 android:id="@+id/fragment_question_button_answer2"
@@ -93,7 +96,8 @@
                 android:background="@null"
                 android:minHeight="@dimen/button_small_height"
                 android:padding="@dimen/preference_item_padding_inner"
-                android:textSize="@dimen/text_small" />
+                android:textSize="@dimen/text_small"
+                android:textStyle="bold|italic" />
 
             <fr.cmoatoto.quiz.lib.views.AnswerButton
                 android:id="@+id/fragment_question_button_answer3"
@@ -102,7 +106,8 @@
                 android:background="@null"
                 android:minHeight="@dimen/button_small_height"
                 android:padding="@dimen/preference_item_padding_inner"
-                android:textSize="@dimen/text_small" />
+                android:textSize="@dimen/text_small"
+                android:textStyle="bold|italic" />
 
             <fr.cmoatoto.quiz.lib.views.QuizButton
                 android:id="@+id/fragment_question_button_next"

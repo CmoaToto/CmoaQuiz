@@ -13,6 +13,7 @@ public class TypeFaceUtils {
     private static Typeface defaultFont;
     private static Typeface lightFont;
     private static Typeface boldFont;
+    private static Typeface hiddenFont;
     private static int colorDark = Color.argb(250, 50, 50, 50);
     private static int colorLight = Color.argb(250, 200, 200, 200);
 
@@ -30,7 +31,12 @@ public class TypeFaceUtils {
         if (boldFont == null) {
             boldFont = Typeface.createFromAsset(c.getAssets(), "fonts/comfortaabold.ttf");
         }
-        if (typeface == Typeface.BOLD || typeface == Typeface.BOLD_ITALIC) {
+        if (hiddenFont == null) {
+            hiddenFont = Typeface.createFromAsset(c.getAssets(), "fonts/redacted-script-regular.ttf");
+        }
+        if (typeface == Typeface.BOLD_ITALIC) {
+            return hiddenFont;
+        } else if (typeface == Typeface.BOLD) {
             return boldFont;
         } else if (typeface == Typeface.ITALIC) {
             return lightFont;
@@ -66,9 +72,9 @@ public class TypeFaceUtils {
             Typeface typeface = ((Button) v).getTypeface();
             if (typeface != null && typeface.isBold() && typeface.isItalic()) {
                 ((Button) v).setTypeface(getFont(v.getContext(), Typeface.BOLD_ITALIC));
-            } else if (typeface != null && typeface.isBold()) {
+            } else if ((typeface != null) && typeface.isBold()) {
                 ((Button) v).setTypeface(getFont(v.getContext(), Typeface.BOLD));
-            } else if (typeface != null && typeface.isItalic()) {
+            } else if ((typeface != null) && typeface.isItalic()) {
                 ((Button) v).setTypeface(getFont(v.getContext(), Typeface.ITALIC));
             } else {
                 ((Button) v).setTypeface(getFont(v.getContext(), Typeface.NORMAL));
