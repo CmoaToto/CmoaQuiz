@@ -83,6 +83,7 @@ public class QuestionOneTryActivity extends QuestionActivity {
 
         AllQuestionGame AllQuestionGame = new AllQuestionGame(mActivity, mTotalPoints, mDetailledPoints, mQuestionNumber, mTotalQuestion, mPlayer);
         BackOfficeHelper.sendAllQuestionGameAsync(mActivity, AllQuestionGame);
+        BackOfficeHelper.sendAllQuestionGameToGoogleFormAsync(mActivity, AllQuestionGame);
 
         super.goToNext();
     }
