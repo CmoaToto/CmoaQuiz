@@ -26,7 +26,7 @@ public class BackOfficeHelper {
                 try {
                     Log.d(TAG, "json : " + jsonQuiz);
                     Log.d(TAG, "url : " + c.getString(R.string.quiz_config_backoffice_link));
-                    String response = new NetworkManager().post(new URL(c.getString(R.string.quiz_config_backoffice_link)), jsonQuiz);
+                    String response = new NetworkManager().post(new URL(c.getString(R.string.quiz_config_backoffice_link)), jsonQuiz, NetworkManager.JSON);
                     Log.d(TAG, "receiving : " + response);
                 } catch (IOException e) {
                     e.printStackTrace();
