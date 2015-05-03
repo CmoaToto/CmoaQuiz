@@ -2,10 +2,10 @@ package fr.cmoatoto.quiz.lib.activities.gamerules.tenquestions;
 
 import android.content.Intent;
 import android.os.Bundle;
+
 import fr.cmoatoto.quiz.lib.R;
 import fr.cmoatoto.quiz.lib.activities.FinishActivity;
 import fr.cmoatoto.quiz.lib.activities.QuestionActivity;
-import fr.cmoatoto.quiz.lib.activities.questions.QuestionFragment;
 
 public class Question10QuestionsActivity extends QuestionActivity {
 
@@ -24,18 +24,6 @@ public class Question10QuestionsActivity extends QuestionActivity {
         super.onCreate(savedInstanceState);
 
         mPointsTextView.setText(getResources().getQuantityString(R.plurals.quiz_activity_question_totalpoints, Math.max(mTotalPoints, 1), mTotalPoints));
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-
-        if (mOnPause) {
-            mOnPause = false;
-            ((QuestionFragment) mAdapter.getItem(mViewPager.getCurrentItem())).startCountDown();
-        } else {
-            onPageSelected(0);
-        }
     }
 
     protected Intent insertExtraToFinishIntent(Intent i) {

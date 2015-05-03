@@ -7,7 +7,6 @@ import android.widget.Toast;
 import fr.cmoatoto.quiz.lib.R;
 import fr.cmoatoto.quiz.lib.activities.FinishActivity;
 import fr.cmoatoto.quiz.lib.activities.QuestionActivity;
-import fr.cmoatoto.quiz.lib.activities.questions.QuestionFragment;
 import fr.cmoatoto.quiz.lib.backoffice.BackOfficeHelper;
 import fr.cmoatoto.quiz.lib.backoffice.pojo.AllQuestionGame;
 import fr.cmoatoto.quiz.lib.backoffice.pojo.Player;
@@ -34,18 +33,6 @@ public class QuestionOneTryActivity extends QuestionActivity {
 
         mPointsTextView.setText(getResources().getQuantityString(R.plurals.quiz_activity_question_totalpoints, Math.max(mTotalPoints, 1), mTotalPoints));
         mTotalQuestion = mViewPager.getAdapter().getCount();
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-
-        if (mOnPause) {
-            mOnPause = false;
-            ((QuestionFragment) mAdapter.getItem(mViewPager.getCurrentItem())).startCountDown();
-        } else {
-            onPageSelected(0);
-        }
     }
 
     @Override
