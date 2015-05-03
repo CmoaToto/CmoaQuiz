@@ -5,7 +5,6 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
 
 public class TypeFaceUtils {
@@ -62,17 +61,6 @@ public class TypeFaceUtils {
             } else {
                 ((TextView) v).setTypeface(getFont(v.getContext(), Typeface.NORMAL));
             }
-        } else if (v instanceof Button) {
-            Typeface typeface = ((Button) v).getTypeface();
-            if (typeface != null && typeface.isBold() && typeface.isItalic()) {
-                ((Button) v).setTypeface(getFont(v.getContext(), Typeface.BOLD_ITALIC));
-            } else if (typeface != null && typeface.isBold()) {
-                ((Button) v).setTypeface(getFont(v.getContext(), Typeface.BOLD));
-            } else if (typeface != null && typeface.isItalic()) {
-                ((Button) v).setTypeface(getFont(v.getContext(), Typeface.ITALIC));
-            } else {
-                ((Button) v).setTypeface(getFont(v.getContext(), Typeface.NORMAL));
-            }
         }
     }
 
@@ -86,12 +74,6 @@ public class TypeFaceUtils {
                 ((TextView) v).setTextColor(colorLight);
             } else {
                 ((TextView) v).setTextColor(colorDark);
-            }
-        } else if (v instanceof Button) {
-            if (color == ColorFont.LIGHT) {
-                ((Button) v).setTextColor(colorLight);
-            } else {
-                ((Button) v).setTextColor(colorDark);
             }
         }
     }
