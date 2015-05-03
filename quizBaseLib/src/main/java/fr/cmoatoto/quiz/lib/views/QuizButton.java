@@ -11,7 +11,6 @@ import android.widget.Button;
 
 import fr.cmoatoto.quiz.lib.R;
 import fr.cmoatoto.quiz.lib.utils.DimenUtils;
-import fr.cmoatoto.quiz.lib.utils.TypeFaceUtils;
 
 public class QuizButton extends Button {
 
@@ -52,8 +51,6 @@ public class QuizButton extends Button {
         mPaint.setColor(context.getResources().getColor(R.color.semitransparent_button_default));
 
         setBackgroundResource(R.drawable.button_background_selector);
-
-        TypeFaceUtils.applyFontToHierarchyView(this);
     }
 
     public void setDoubleText(String string, String string2) {
