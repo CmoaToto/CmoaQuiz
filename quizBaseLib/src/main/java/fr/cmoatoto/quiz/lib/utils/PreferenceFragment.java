@@ -57,12 +57,7 @@ public abstract class PreferenceFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        try {
-            Constructor<PreferenceManager> c = PreferenceManager.class.getDeclaredConstructor(Activity.class, int.class);
-            c.setAccessible(true);
-            mPreferenceManager = c.newInstance(this.getActivity(), FIRST_REQUEST_CODE);
-        } catch (Exception ignored) {
-        }
+        initPreferenceManager();
     }
 
     @Override
@@ -143,8 +138,15 @@ public abstract class PreferenceFragment extends Fragment {
         }
     }
 
-    public PreferenceManager getPreferenceManager() {
-        return mPreferenceManager;
+    public void initPreferenceManager() {
+        if (mPreferenceManager == null) {
+            try {
+                Constructor<PreferenceManager> c = PreferenceManager.class.getDeclaredConstructor(Activity.class, int.class);
+                c.setAccessible(true);
+                mPreferenceManager = c.newInstance(this.getActivity(), FIRST_REQUEST_CODE);
+            } catch (Exception ignored) {
+            }
+        }
     }
 
     void setPreferenceScreen(PreferenceScreen screen) {
@@ -196,7 +198,7 @@ public abstract class PreferenceFragment extends Fragment {
 
     protected Preference findPreference(CharSequence key) {
         if (mPreferenceManager == null) {
-            return null;
+            initPreferenceManager();
         }
         return mPreferenceManager.findPreference(key);
     }
